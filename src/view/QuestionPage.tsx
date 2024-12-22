@@ -9,10 +9,9 @@ import WAVE from '../assets/wave.svg';
 
 type QuestionPageProps = {
 	nextStep: () => void;
-	prevStep: () => void;
 };
 
-export function QuestionPage({ nextStep, prevStep }: QuestionPageProps) {
+export function QuestionPage({ nextStep }: QuestionPageProps) {
 	return (
 		<div className='flex justify-center items-center min-h-screen overflow-hidden bg-[#fff]'>
 			<Wrapper>

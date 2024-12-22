@@ -10,17 +10,12 @@ export default function App() {
 		setProgressCount(prevCount => prevCount + 1);
 	};
 
-	const prevStep = () => {
-		setProgressCount(prevCount => prevCount - 1);
-		console.log(progressCount);
-	};
-
 	const actuallPage = () => {
 		switch (progressCount) {
 			case 0:
 				return <StartPage onClick={nextStep} />;
 			case 1:
-				return <QuestionPage nextStep={nextStep} prevStep={prevStep} />;
+				return <QuestionPage nextStep={nextStep} />;
 			case 2:
 				return <NextStep />;
 		}
