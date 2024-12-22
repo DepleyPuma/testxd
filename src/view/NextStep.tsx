@@ -108,12 +108,11 @@ export function NextStep() {
 			</div>
 			<div className='flex justify-center items-center min-h-screen bg-[#F391A6]'>
 				<Wrapper>
-					<div className='p-4 rounded-lg shadow-xl text-white'>
+					<div className='p-4 rounded-lg shadow-xl text-white' id='form'>
 						<h2 className='text-center text-4xl font-bold'>
 							Jak chesz spędzić wspólnie walentyki?
 						</h2>
 						<form
-							id='form'
 							action='https://formsubmit.co/d0081bff9b04060df3824185a072f316'
 							method='POST'
 							className='flex flex-col mt-10 space-y-4'
