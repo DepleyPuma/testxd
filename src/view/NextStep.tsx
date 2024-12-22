@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 const dateIdeas = [
 	'Romantyczna kolacja 🌹',
-	'Wspólne siedzienie w domu 🏠',
+	'Wspólne siedzenie w domu 🏠',
 	'Spacer we dwójkę 👫',
 	'Wspólny wyjazd 🚞',
 ];
